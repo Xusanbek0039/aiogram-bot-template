@@ -87,7 +87,7 @@
 from pymongo import MongoClient
 
 # MongoDB Atlas URI orqali ulanish
-uri = "mongodb+srv://itpark0071:s6ee37JnHzTeNFYi@cluster0.svmw94n.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+uri = ""
 client = MongoClient(uri)
 
 # Ma'lumotlar bazasi nomi (misol uchun 'test') va kolleksiya (masalan 'users')
