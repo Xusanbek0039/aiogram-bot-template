@@ -92,7 +92,7 @@
 
 # # Ma'lumotlar bazasi nomi (misol uchun 'test') va kolleksiya (masalan 'users')
 # db = client['test']            # o‘zingizdagi bazani shu yerga yozing
-# collection = db['users']       # o‘zingizdagi kolleksiyani shu yerga yozing
+# collection = db['chats']       # o‘zingizdagi kolleksiyani shu yerga yozing
 
 # # Ma’lumotlarni o‘qish
 # documents = collection.find()
