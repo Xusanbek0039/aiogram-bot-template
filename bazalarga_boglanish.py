@@ -84,19 +84,19 @@
 
 # pip install pymongo
 # MongoDB Atlas
-from pymongo import MongoClient
+# from pymongo import MongoClient
 
-# MongoDB Atlas URI orqali ulanish
-uri = ""
-client = MongoClient(uri)
+# # MongoDB Atlas URI orqali ulanish
+# uri = ""
+# client = MongoClient(uri)
 
-# Ma'lumotlar bazasi nomi (misol uchun 'test') va kolleksiya (masalan 'users')
-db = client['test']            # o‘zingizdagi bazani shu yerga yozing
-collection = db['users']       # o‘zingizdagi kolleksiyani shu yerga yozing
+# # Ma'lumotlar bazasi nomi (misol uchun 'test') va kolleksiya (masalan 'users')
+# db = client['test']            # o‘zingizdagi bazani shu yerga yozing
+# collection = db['users']       # o‘zingizdagi kolleksiyani shu yerga yozing
 
-# Ma’lumotlarni o‘qish
-documents = collection.find()
+# # Ma’lumotlarni o‘qish
+# documents = collection.find()
 
-# Ekranga chiqarish
-for doc in documents:
-    print(doc)
+# # Ekranga chiqarish
+# for doc in documents:
+#     print(doc)
